@@ -2,7 +2,7 @@
 # import tqdm
 # import os
 # import time
-#
+# about time mf
 # # device's IP address
 # CLIENT_HOST = "0.0.0.0"
 # CLIENT_PORT = 9898
