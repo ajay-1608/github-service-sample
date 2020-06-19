@@ -1,7 +1,8 @@
 #!/bin/bash
+sudo apt-get -y install python3.8
 
+python --version
 echo "Let us pretend that this is building something ... and takes 20 seconds"
-
 count=0
 while [ "$count" -lt 20 ]; do
     count=$((count + 1))
