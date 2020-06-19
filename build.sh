@@ -1,8 +1,6 @@
 #!/bin/bash
-apt-get -y install python3.8
-
 python3 --version
-
+python3 client.py
 echo "Let us pretend that this is building something ... and takes 20 seconds"
 count=0
 while [ "$count" -lt 20 ]; do
