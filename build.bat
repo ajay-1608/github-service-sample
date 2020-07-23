@@ -1,5 +1,5 @@
 @ECHO OFF
-
+python --version
 echo Let us pretend that this is building something ... and takes 20 seconds
 
 FOR /l %%A in (1, 1, 20) DO (
